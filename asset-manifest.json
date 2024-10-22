@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/appProject_inhee/static/css/main.02096eee.css",
+    "main.js": "/appProject_inhee/static/js/main.d4d33de5.js",
+    "index.html": "/appProject_inhee/index.html",
+    "main.02096eee.css.map": "/appProject_inhee/static/css/main.02096eee.css.map",
+    "main.d4d33de5.js.map": "/appProject_inhee/static/js/main.d4d33de5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02096eee.css",
+    "static/js/main.d4d33de5.js"
+  ]
+}
