@@ -7,14 +7,14 @@ import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 
 const Upcomming = () => {
-    const APIKEY=process.env.REACT_APP_API_KEY;
+    //const APIKEY =process.env.REACT_APP_API_KEY;
 
     const [upcomingMovies, setUpcomingMovies] = useState([]);
     const [isLoading, setLoading] = useState(true);
 
     const getMovies = async () => {
         try {
-            const response = await axios.get(`https://api.themoviedb.org/3/movie/now_playing?api_key=${APIKEY}&language=ko-KR`);
+            const response = await axios.get(`https://api.themoviedb.org/3/movie/now_playing?api_key=546c72b99cf64514c2c03c7ef473011b&language=ko-KR`);
 
             setUpcomingMovies(response.data.results);
             // console.log(response.data);
